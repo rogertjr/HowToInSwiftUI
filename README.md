@@ -1,5 +1,11 @@
 # How To In SwiftUI
-
+<p align="center">
+    <img src="https://img.shields.io/badge/iOS-14.0+-blue.svg" />
+    <img src="https://img.shields.io/badge/Xcode-12.0+-brightgreen.svg" />
+    <img src="https://img.shields.io/badge/Swift-5.3-orange.svg" />
+    <img src="https://img.shields.io/badge/SwiftUI-2.0-red.svg" />
+</p>
+ 
 # Async/Await
 AnimeListSwiftUI - Anime quote list built with MVVM Swift 5 using Async/Await
 
