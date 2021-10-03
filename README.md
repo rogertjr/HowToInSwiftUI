@@ -1,4 +1,5 @@
-# How To In SwiftUI
+<h1 align="center"> How To In SwiftUI </h1>
+
 <p align="center">
     <img src="https://img.shields.io/badge/iOS-14.0+-blue.svg" />
     <img src="https://img.shields.io/badge/Xcode-12.0+-brightgreen.svg" />
