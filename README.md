@@ -15,6 +15,10 @@ Fitness - Fitness App built with SwiftUI using Combine and Firebase<br />
 # Core Data
 MyTasks - Apple Watch App built with SwiftUI and Core Data
 
+# Loaders
+LoadingImagesSwiftUI - Async Image Load and Cache<br />
+PlaceholderLoadSwiftUI - Using Placeholders While Loading Data in SwiftUI<br />
+
 # Networking
 CombineNetworkingSwift - App built with MVVM SwiftUI and Combine to Fetch TMDB Data<br />
 NetworkingSwiftUI - Simple MVVM networking in SwiftUI<br />
