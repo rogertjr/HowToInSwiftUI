@@ -13,6 +13,7 @@ AnimeListSwiftUI - Anime quote list built with MVVM Swift 5 using Async/Await
 # Clones
 Clubhouse - App clone built with SwiftUI<br />
 FoodDelivery - Restaurant Detail UI built with SwiftUI 2.0<br />
+EcommerceApp - Ecommerce based ui built with Swift 3.0 and Combine<br />
 
 # Combine
 FirebaseAuthSwiftUI - Firebase authentication using Combine and SPM<br />
@@ -26,7 +27,7 @@ MyTasks - Apple Watch App built with SwiftUI and Core Data
 FaceIDLogin - Example of login using FaceID and Firebase Auth
 
 # Graphs
-BarGraph - Custom Bar Graph with drag gesture
+BarGraph - Custom Bar Graph with drag gesture<br />
 LineGraph - Custom Line Graph with drag gesture   
 
 # Loaders
