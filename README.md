@@ -22,6 +22,13 @@ Fitness - Fitness App built with SwiftUI using Combine and Firebase<br />
 # Core Data
 MyTasks - Apple Watch App built with SwiftUI and Core Data
 
+# FaceID
+FaceIDLogin - Example of login using FaceID and Firebase Auth
+
+# Graphs
+BarGraph - Custom Bar Graph with drag gesture
+LineGraph - Custom Line Graph with drag gesture   
+
 # Loaders
 LoadingImagesSwiftUI - Async Image Load and Cache<br />
 PlaceholderLoadSwiftUI - Using Placeholders While Loading Data in SwiftUI<br />
