@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3720658F2790AD3F00F99FDA /* BarGraphApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3720658E2790AD3F00F99FDA /* BarGraphApp.swift */; };
+		372065932790AD4200F99FDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 372065922790AD4200F99FDA /* Assets.xcassets */; };
+		372065962790AD4200F99FDA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 372065952790AD4200F99FDA /* Preview Assets.xcassets */; };
+		372065A12790ADEC00F99FDA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372065A02790ADEB00F99FDA /* HomeView.swift */; };
+		372065A62790AE3F00F99FDA /* BarGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372065A52790AE3F00F99FDA /* BarGraphView.swift */; };
+		372065A82790AE5700F99FDA /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372065A72790AE5700F99FDA /* Download.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3720658B2790AD3F00F99FDA /* BarGraph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarGraph.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3720658E2790AD3F00F99FDA /* BarGraphApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarGraphApp.swift; sourceTree = "<group>"; };
+		372065922790AD4200F99FDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		372065952790AD4200F99FDA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		372065A02790ADEB00F99FDA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		372065A52790AE3F00F99FDA /* BarGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarGraphView.swift; sourceTree = "<group>"; };
+		372065A72790AE5700F99FDA /* Download.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Download.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		372065882790AD3F00F99FDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		372065822790AD3F00F99FDA = {
+			isa = PBXGroup;
+			children = (
+				3720658D2790AD3F00F99FDA /* BarGraph */,
+				3720658C2790AD3F00F99FDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3720658C2790AD3F00F99FDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3720658B2790AD3F00F99FDA /* BarGraph.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3720658D2790AD3F00F99FDA /* BarGraph */ = {
+			isa = PBXGroup;
+			children = (
+				372065A22790ADF600F99FDA /* App */,
+				3720659C2790ADC000F99FDA /* Features */,
+				372065922790AD4200F99FDA /* Assets.xcassets */,
+				372065942790AD4200F99FDA /* Preview Content */,
+			);
+			path = BarGraph;
+			sourceTree = "<group>";
+		};
+		372065942790AD4200F99FDA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				372065952790AD4200F99FDA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3720659C2790ADC000F99FDA /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				3720659E2790ADD700F99FDA /* Home */,
+				3720659D2790ADC900F99FDA /* BarGraph */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		3720659D2790ADC900F99FDA /* BarGraph */ = {
+			isa = PBXGroup;
+			children = (
+				372065A42790AE3700F99FDA /* View */,
+				372065A32790AE3300F99FDA /* Model */,
+			);
+			path = BarGraph;
+			sourceTree = "<group>";
+		};
+		3720659E2790ADD700F99FDA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3720659F2790ADDC00F99FDA /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3720659F2790ADDC00F99FDA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				372065A02790ADEB00F99FDA /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		372065A22790ADF600F99FDA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3720658E2790AD3F00F99FDA /* BarGraphApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		372065A32790AE3300F99FDA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				372065A72790AE5700F99FDA /* Download.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		372065A42790AE3700F99FDA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				372065A52790AE3F00F99FDA /* BarGraphView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3720658A2790AD3F00F99FDA /* BarGraph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 372065992790AD4200F99FDA /* Build configuration list for PBXNativeTarget "BarGraph" */;
+			buildPhases = (
+				372065872790AD3F00F99FDA /* Sources */,
+				372065882790AD3F00F99FDA /* Frameworks */,
+				372065892790AD3F00F99FDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BarGraph;
+			productName = BarGraph;
+			productReference = 3720658B2790AD3F00F99FDA /* BarGraph.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		372065832790AD3F00F99FDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					3720658A2790AD3F00F99FDA = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 372065862790AD3F00F99FDA /* Build configuration list for PBXProject "BarGraph" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 372065822790AD3F00F99FDA;
+			productRefGroup = 3720658C2790AD3F00F99FDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3720658A2790AD3F00F99FDA /* BarGraph */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		372065892790AD3F00F99FDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372065962790AD4200F99FDA /* Preview Assets.xcassets in Resources */,
+				372065932790AD4200F99FDA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		372065872790AD3F00F99FDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372065A62790AE3F00F99FDA /* BarGraphView.swift in Sources */,
+				372065A82790AE5700F99FDA /* Download.swift in Sources */,
+				372065A12790ADEC00F99FDA /* HomeView.swift in Sources */,
+				3720658F2790AD3F00F99FDA /* BarGraphApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		372065972790AD4200F99FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		372065982790AD4200F99FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3720659A2790AD4200F99FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BarGraph/Preview Content\"";
+				DEVELOPMENT_TEAM = 597969VDF7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.rogertjr.BarGraph;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3720659B2790AD4200F99FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BarGraph/Preview Content\"";
+				DEVELOPMENT_TEAM = 597969VDF7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.rogertjr.BarGraph;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		372065862790AD3F00F99FDA /* Build configuration list for PBXProject "BarGraph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				372065972790AD4200F99FDA /* Debug */,
+				372065982790AD4200F99FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		372065992790AD4200F99FDA /* Build configuration list for PBXNativeTarget "BarGraph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3720659A2790AD4200F99FDA /* Debug */,
+				3720659B2790AD4200F99FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 372065832790AD3F00F99FDA /* Project object */;
+}
