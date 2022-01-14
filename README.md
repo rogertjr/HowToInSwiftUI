@@ -13,7 +13,7 @@ AnimeListSwiftUI - Anime quote list built with MVVM Swift 5 using Async/Await
 # Clones
 Clubhouse - App clone built with SwiftUI<br />
 FoodDelivery - Restaurant Detail UI built with SwiftUI 2.0<br />
-EcommerceApp - Ecommerce based ui built with Swift 3.0 and Combine<br />
+EcommerceApp - Ecommerce based ui built with SwiftUI 3.0 and Combine<br />
 
 # Combine
 FirebaseAuthSwiftUI - Firebase authentication using Combine and SPM<br />
